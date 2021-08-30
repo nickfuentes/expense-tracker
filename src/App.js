@@ -1,5 +1,5 @@
 import React from 'react'
-import Expenses from "./components/Expenses"
+import Expenses from "./components/Expenses/Expenses"
 
 function App() {
   const expenses = [
@@ -23,7 +23,7 @@ function App() {
     },
     {
       id: "e4",
-      title: "New Desk (Wooden)",
+      title: "New Desk (Oak Wood)",
       amount: 450,
       date: new Date(2021, 5, 12),
     },
